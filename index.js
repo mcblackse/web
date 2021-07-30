@@ -6,9 +6,15 @@ const loadRoutes = require("./app/routes")
 const DataLoader = require('./app/dataLoader')
 const views = require('koa-views')
 const serve = require('koa-static')
+const twig = require("twig");
+const util = require("util");
+const fs = require("fs");
 
 const app = new Koa()
 const router = new Router()
+
+// new stuff 
+
 
 // Data loader for products (reads JSON files)
 const productsLoader = new DataLoader(
