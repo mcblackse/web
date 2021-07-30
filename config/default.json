@@ -18,8 +18,8 @@
         "path": "app/data"
     },
     "settings": {
-        "siteName": "Roe Jogan's podcast fundraiser",
-        "snipcartApiKey": "MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4",
+        "siteName": "McBläck",
+        "snipcartApiKey": "OGQ2ZWZlNTMtMGRlMC00ODA4LTk3YzctMmYxNTI2OTMyOGI1NjM3NjMyMzA1NTI2MzE1OTE1",
         "defaultDonation" : 25
     }
 }
