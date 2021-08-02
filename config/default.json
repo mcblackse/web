@@ -3,13 +3,7 @@
         "port": 3000
     },
     "views": {
-        "path": "app/views",
-        "options": {
-            "map": {
-                "pug": "pug"
-            },
-            "extension": "pug"
-        }
+        "path": "app/views"
     },
     "static":{
         "path":"app/static"

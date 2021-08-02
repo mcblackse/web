@@ -4,9 +4,8 @@ const Koa = require('koa')
 const Router = require('koa-router')
 const loadRoutes = require("./app/routes")
 const DataLoader = require('./app/dataLoader')
-const views = require('koa-views')
 const serve = require('koa-static')
-const twig = require("twig");
+const koaTwig = require("koa-twig");
 const util = require("util");
 const fs = require("fs");
 
@@ -24,11 +23,12 @@ const productsLoader = new DataLoader(
     'products')
 )
 
-// Views setup, adds render() function to ctx object
-app.use(views(
-  path.join(__dirname, config.get('views.path')),
-  config.get('views.options')
-))
+app.use(
+  koaTwig({
+    views: path.join(__dirname, config.get('views.path')),
+    extension: "twig"
+  })
+);
 
 // Server static files (scripts, css, images)
 app.use(serve(config.get('static.path')))

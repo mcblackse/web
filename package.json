@@ -25,20 +25,18 @@
     "koa": "^2.13.1",
     "koa-router": "^10.0.0",
     "koa-static": "^5.0.0",
-    "koa-twig": "1.2.0",
-    "koa-views": "^7.0.0",
+    "koa-twig": "^1.2.0",
     "morgan": "~1.9.1",
     "pug": "^3.0.0",
     "request": "^2.88.0",
     "server": "^1.0.27",
-    "twig": "1.15.4",
     "utf-8-validate": "^5.0.2",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "nodemon": "^2.0.7",
-        "koa": "2.13.0",
-    "koa-router": "9.4.0"
+    "koa": "2.13.0",
+    "koa-router": "9.4.0",
+    "nodemon": "^2.0.7"
   }
 }

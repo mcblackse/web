@@ -2092,7 +2092,7 @@ koa-static@^5.0.0:
     debug "^3.1.0"
     koa-send "^5.0.0"
 
-koa-twig@1.2.0:
+koa-twig@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/koa-twig/-/koa-twig-1.2.0.tgz#6586d0e2fbe3a519ac91873290e8591d3bc47b4f"
   integrity sha512-10gGjTTe8MG4ynFnlX7Y0wyLVvbEVUMs4LqaNORcOGX3Esp6ZR3vE92zYjY7lwraj33SBFvLiHSLUK60xSI9Cw==
